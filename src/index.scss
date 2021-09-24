@@ -1,0 +1,263 @@
+@import url("./font/proximasoft/stylesheet.css");
+
+$pinkColor: #FF6776;
+$headerBack: #2E3338;
+$altBAckground: #F2F2F2;
+$darkText: #3E4653;
+$fontChoice: 'Proxima Soft', Arial, Helvetica, sans-serif;
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+    font-family: $fontChoice !important;
+}
+
+.App {
+    text-align: center;
+    // overflow: hidden;
+    overflow-x: hidden;
+    // overflow-y: inherit;
+}
+
+.boldText,.active{
+    font-weight: bold !important;
+}
+
+// img{
+//     width: 100%;
+// }
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: $fontChoice !important;
+}
+p {
+    font-family: $fontChoice !important;
+    font-weight: 500 !important;
+    color: $darkText;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+h1{
+    font-size: 45px !important;
+    font-weight: 700 !important;
+    margin-bottom: 2% !important;
+}
+
+//**************************/ components
+.content{
+    display: grid;
+    // justify-items: center;
+    justify-self: center;
+    justify-content: center;
+    gap: 50px;
+    width: 800px;
+
+    h1{
+        color: $pinkColor;
+    }
+    img{
+        justify-self: center;
+    }
+}
+
+.headerArea{
+    height: 50px;
+    background-color: $headerBack;
+    align-items: center;
+    display: grid;
+    position: fixed;
+    width: 100%;
+
+    .links{
+        display: flex;
+        justify-content: center;
+        
+        #last{
+            border-right: 0px !important;
+        }
+        
+        a{
+            color: white;
+            text-decoration: none;
+            border-right: 1px solid white;
+            padding: 0px 40px;
+            font-size: 17px;
+            font-family: $fontChoice;
+            font-weight: 300;
+            cursor: pointer;
+        }
+    }
+}
+
+.stickyTag{
+display: grid;
+justify-content: right;
+align-items: center;
+float: right;
+margin-top: 130px;
+// height: 50px;
+position: fixed;
+width: 100%;
+
+    .stickyText{
+        rotate: -90deg;
+        margin-right: -40px;
+
+        a{
+            padding: 10px 15px;
+            background-color: $pinkColor;
+            color: white;
+            border-radius: 10px 10px 0px 0px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+
+section{
+    padding: 70px 50px;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+}
+
+.textBubble{
+    padding: 30px 80px;
+    border-radius: 100px;
+}
+
+.letterBubble{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 1200px;
+
+    .letter{
+        font-size: 170px;
+        font-family: $fontChoice;
+        color: $pinkColor;
+        font-weight: 600;
+        width: 20%;
+    }
+
+    .bubble{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px 80px;
+        border-radius: 100px;
+        background-color: $altBAckground;
+        width: 80%;
+        gap: 50px;
+
+        .text{
+            text-align: left;
+
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+//***************************/ page sections
+
+#welcome{
+    display: grid;
+    justify-content: center;
+
+    .one{
+        display: grid;
+        justify-items: center;
+        gap: 50px;
+        img{
+            width: 25%;
+        }
+    }
+    
+    h1{
+        color: $pinkColor;
+        padding-top: 80px;
+        // font-family: Helvetica, Arial, sans-serif !important;
+    }
+}
+#why{
+    background-color: $altBAckground;
+}
+
+#what{
+
+}
+
+#who{
+    background-color: $altBAckground;
+}
+
+
+@media only screen and (max-width: 768px){
+    .content{
+        width: 100%;
+    }
+    .headerArea{
+        .links{ 
+            a{
+                padding: 0px 25px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .one{
+        display: grid;
+        justify-items: center;
+        gap: 30px !important;
+        img{
+            width: 40% !important;
+        }
+    }
+
+    section{
+        padding: 70px 20px;
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    h1{
+        font-size: 40px !important;
+    }
+
+    p{
+        font-size: 15px !important;
+        line-height: 22px;
+    }
+
+    .textBubble{
+        padding: 30px 15px;
+        border-radius: 50px;
+    }
+
+    .headerArea{
+        .links{ 
+            a{
+                padding: 0px 10px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .stickyTag{
+            .stickyText{
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+}
