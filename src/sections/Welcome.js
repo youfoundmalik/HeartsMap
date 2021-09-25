@@ -23,7 +23,7 @@ import P from '../images/Youth_Illustrations-15.svg'
 import CIHR from '../images/Youth_Illustrations-CIHR Logo.svg'
 import UBC from '../images/Youth_Illustrations-ubc.png'
 import BC from '../images/Youth_Illustrations-BC.png'
-import anti from '../images/Youth_Illustrations-AG Design.svg'
+import anti from '../images/Youth_Illustrations-AG Design.png'
 import echo from '../images/Youth_Illustrations-Echo.png'
 import arche from '../images/Youth_Illustrations-Arche.png'
 
@@ -138,16 +138,16 @@ const Welcome = () => {
                         <div className="footerSection">
                             <p className="footerText">THE MYHEARTSMAP TOOL WAS SUPPORTED BY THE CANADIAN INSTITUTES OF HEALTH RESEARCH (CIHR) PROJECT GRANT PROGRAM.</p>
                             <div className="footerImgArea" id="CIHR">
-                                <img alt='image' src={CIHR}/>
+                                <a href='/' target='_blank'><img alt='image' src={CIHR}/></a>
                             </div>
                         </div>
                         <div className="footerSection">
                             <p className="footerText" style={{padding:'5px 60px'}}>DR. DOAN IS SUPPORTED BY THE UNIVERSITY OF BRITISH COLUMBIA AND THE BC CHILDREN'S HOSPITAL RESEARCH INSTITUTE.</p>
                             <div className="footerImgArea" id="UBC">
                                 <div className="image3">
-                                    <img alt='image' src={UBC}/>
-                                    <img alt='image' src={asset}/>
-                                    <img alt='image' src={BC}/>
+                                    <a href='/' target='_blank'><img alt='image' src={UBC}/></a>
+                                    <a href='/' target='_blank'><img alt='image' src={asset}/></a>
+                                    <a href='/' target='_blank'><img alt='image' src={BC}/></a>
                                 </div>
                             </div>
                         </div>
@@ -156,10 +156,10 @@ const Welcome = () => {
                             <div className="footerImgArea" id="AEA">
                                 <div className="image2">
                                     <div className="image2in1">
-                                        <img alt='image' src={arche}/>
-                                        <img alt='image' src={echo}/>
+                                        <a href='/' target='_blank'><img alt='image' src={arche}/></a>
+                                        <a href='/' target='_blank'><img alt='image' src={echo}/></a>
                                     </div>
-                                    <img alt='image' src={anti}/>
+                                    <a href='/' target='_blank'><img alt='image' src={anti}/></a>
                                 </div>
                             </div>
                         </div>
