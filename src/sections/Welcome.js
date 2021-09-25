@@ -138,16 +138,16 @@ const Welcome = () => {
                         <div className="footerSection">
                             <p className="footerText">THE MYHEARTSMAP TOOL WAS SUPPORTED BY THE CANADIAN INSTITUTES OF HEALTH RESEARCH (CIHR) PROJECT GRANT PROGRAM.</p>
                             <div className="footerImgArea" id="CIHR">
-                                <a href='/' target='_blank'><img alt='image' src={CIHR}/></a>
+                                <a href='https://cihr-irsc.gc.ca/e/193.html' target='_blank'><img alt='image' src={CIHR}/></a>
                             </div>
                         </div>
                         <div className="footerSection">
                             <p className="footerText" style={{padding:'5px 60px'}}>DR. DOAN IS SUPPORTED BY THE UNIVERSITY OF BRITISH COLUMBIA AND THE BC CHILDREN'S HOSPITAL RESEARCH INSTITUTE.</p>
                             <div className="footerImgArea" id="UBC">
                                 <div className="image3">
-                                    <a href='/' target='_blank'><img alt='image' src={UBC}/></a>
-                                    <a href='/' target='_blank'><img alt='image' src={asset}/></a>
-                                    <a href='/' target='_blank'><img alt='image' src={BC}/></a>
+                                    <a href='https://www.ubc.ca' target='_blank'><img alt='image' src={UBC}/></a>
+                                    <a href='https://openheartsmap.bcchr.ca/ords/f?p=211:LOGIN_DESKTOP' target='_blank'><img alt='image' src={asset}/></a>
+                                    <a href='http://www.bcchildrens.ca' target='_blank'><img alt='image' src={BC}/></a>
                                 </div>
                             </div>
                         </div>
@@ -156,10 +156,10 @@ const Welcome = () => {
                             <div className="footerImgArea" id="AEA">
                                 <div className="image2">
                                     <div className="image2in1">
-                                        <a href='/' target='_blank'><img alt='image' src={arche}/></a>
-                                        <a href='/' target='_blank'><img alt='image' src={echo}/></a>
+                                        <a href='https://www.ualberta.ca/pediatrics/pediatric-research/affiliated-research-units/alberta-research-centre-for-health-evidence-arche/index.html' target='_blank'><img alt='image' src={arche}/></a>
+                                        <a href='http://www.echokt.ca' target='_blank'><img alt='image' src={echo}/></a>
                                     </div>
-                                    <a href='/' target='_blank'><img alt='image' src={anti}/></a>
+                                    <a href='https://www.antigravitydesignco.com' target='_blank'><img alt='image' src={anti}/></a>
                                 </div>
                             </div>
                         </div>

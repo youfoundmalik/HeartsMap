@@ -4,7 +4,7 @@ const StickyTag = () => {
     return (
         <div className="stickyTag">
             <div className="stickyText">
-                <a href='/' className="boldText" target='_blank'>Quick Exit</a>
+                <a href='https://www.theweathernetwork.com' className="boldText" target='_blank'>Quick Exit</a>
             </div>
         </div>
     )
