@@ -1,8 +1,8 @@
 import React from 'react'
 
-const LetterBubble = ({letter,Children}) => {
+const LetterBubble = ({letter,Children,id}) => {
     return (
-        <div className="letterBubble">
+        <div className="letterBubble" id={id}>
             <div className="letter">{letter}</div>
             <>{Children}</>
         </div>

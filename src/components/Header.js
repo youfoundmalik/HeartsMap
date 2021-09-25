@@ -1,12 +1,7 @@
 import React from 'react';
-// import '../index.scss';
-// import { NavLink } from 'react-router-dom';
-import {animateScroll as Scroll, Link as NavLink} from 'react-scroll'
+import {Link as NavLink} from 'react-scroll'
 
 const Header = () => {
-    const scrollTop = () => {
-        Scroll.scrollToTop();
-    }
     
     return (
         <header className='headerArea'>
