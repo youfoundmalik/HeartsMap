@@ -78,7 +78,7 @@ const Welcome = () => {
                 imgwidth='90%'
                 >
                     <TextBubble
-                        textInput='When you experience dicult mental health symptoms, going 
+                        textInput='When you experience difficult mental health symptoms, going 
                         to the emergency department might feel overwhelming.'
                         backColor='#fff'
                     />
