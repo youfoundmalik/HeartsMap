@@ -17,19 +17,13 @@ $fontChoice: "Proxima Soft", Arial, Helvetica, sans-serif;
 
 .App {
   text-align: center;
-  // overflow: hidden;
   overflow-x: hidden;
-  // overflow-y: inherit;
 }
 
 .boldText,
 .active {
   font-weight: bold !important;
 }
-
-// img{
-//     width: 100%;
-// }
 
 h1,
 h2,
@@ -59,7 +53,6 @@ h1 {
 //**************************/ components
 .content {
   display: grid;
-  // justify-items: center;
   justify-self: center;
   justify-content: center;
   gap: 50px;
@@ -108,7 +101,6 @@ h1 {
   align-items: center;
   float: right;
   margin-top: 130px;
-  // height: 50px;
   position: fixed;
   width: 100%;
 
@@ -168,7 +160,6 @@ section {
       background-color: $altBAckground;
       width: 90%;
       gap: 50px;
-      // border-bottom: 1px solid;
 
       .imgArea {
         width: 200px;
@@ -186,7 +177,6 @@ section {
 
     hr {
       width: 84%;
-      // margin-top: -1px;
     }
   }
 }
@@ -226,7 +216,6 @@ section {
   h1 {
     color: $pinkColor;
     padding-top: 80px;
-    // font-family: Helvetica, Arial, sans-serif !important;
   }
 }
 #why {
@@ -244,22 +233,23 @@ section {
   border-top: 10px solid $headerBack;
   padding: 0px !important;
   margin-top: 2px;
-  .content{
-      h1, img {
-          display: none;
+  .content {
+    h1,
+    img {
+      display: none;
+    }
+    a {
+      color: $darkText;
+      font-size: 45px !important;
+      font-weight: 700 !important;
+      margin-bottom: 2% !important;
+      margin: 100px 0px 50px !important;
+      text-decoration: none;
+
+      &:hover {
+        color: $pinkColor;
       }
-      a {
-        color: $darkText;
-        font-size: 45px !important;
-        font-weight: 700 !important;
-        margin-bottom: 2% !important;
-        margin: 100px 0px 50px !important;
-        text-decoration: none;
-    
-        &:hover {
-          color: $pinkColor;
-        }
-      }
+    }
   }
   .footer {
     .footerbanner {
@@ -289,14 +279,12 @@ section {
         .footerImgArea {
           background-color: #fff;
           border-radius: 500px;
-          // width: 100%;
         }
 
         #CIHR {
           display: grid;
           align-items: center;
           justify-self: center;
-          // justify-content: center;
           width: 85%;
           height: 120px;
 
@@ -373,10 +361,8 @@ section {
 
   .letterBubble {
     width: 100% !important;
-    // padding: 0px 40px;
     display: flex;
     justify-self: center;
-    // grid-template-columns: 30% 70%;
     gap: 40px;
 
     .letter {
@@ -401,7 +387,6 @@ section {
           img {
             height: 150px !important;
             width: 100% !important;
-            // width: 20px !important;
           }
         }
         .text {
@@ -427,7 +412,6 @@ section {
           width: 100% !important;
           padding-right: 0px;
           border-radius: 0px;
-          // width: 20px !important;
         }
       }
       .text {
